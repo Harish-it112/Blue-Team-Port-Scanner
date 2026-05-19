@@ -2,7 +2,6 @@ write-host "==========DNS Reachability & Port connectivity test============"
 write-host "||
 ||
 ||"
-#$Ip = @("10.75.6.20", "10.75.6.21")
 #Get user Input
 $Ip = Read-Host "Please enter IP to check reachability & Port connectivity"
 #Resolve IP to NameHost
